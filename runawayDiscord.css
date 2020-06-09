@@ -13,12 +13,15 @@
     --interactive-active: #fae5e5;
     --deprecated-card-bg: #1a151d;
     --deprecated-card-editable-bg: #1a151d;
+    --background-accent: #835;
+    --background-floating: #302030;
     
     --textbox-bg: #302930;
     --spotify-popout: #738;
     --settings-color: #7a609a;
     --new-msg: #8a4a8a;
     --popout-footer: #140f14;
+    --background-quat: #302030;
 }
 
 
@@ -46,9 +49,17 @@ body {
 }
 .userPopout-3XzG_A{
     background-color: var(--popout-footer);
+    border-radius: 3px;
 }
-.role-2irmRk:{
+.role-2irmRk{
     border-radius: 5px;
+}
+.theme-dark .quickMessage-1yeL4E{
+    background-color: var(--background-primary);
+    border: 0;
+}
+.headerPlaying-j0WQBV, .headerStreaming-2FjmGz{
+    background-color: var(--background-quat);
 }
 
 
@@ -56,6 +67,7 @@ body {
 /* chat typing field */
 .scrollableContainer-2NUZem{
     background-color: var(--textbox-bg);
+    border-radius: 4px;
 }
 
 
@@ -81,14 +93,17 @@ body {
 .clickable-1JJAn8 .layout-2DM8Md{
     width: 245px;
     transition: transform ease 0.1s;
+    border-radius: 3px;
 }
 .clickable-1JJAn8:active .layout-2DM8Md{
     width: 245px;
     transform: rotate(3deg);
+    border-radius: 3px;
 }
 .selected-aXhQR6 .layout-2DM8Md{
     width: 245px;
     transition: transform ease 0.1s;
+    border-radius: 3px;
 }
 
 
@@ -146,8 +161,54 @@ body {
     color: var(--new-msg);
     fill: var(--new-msg);
 }
+.unread-1xRYoj{
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.isUnread-3Ef-o9 .content-1o0f9g{
+    color: var(--new-msg);
+}
 
 
+/* emoji autofill */
+.theme-dark .autocomplete-1vrmpx{
+    background-color: var(--background-quat);
+}
+.theme-dark .selectorSelected-1_M1WV{
+    background: var(--background-secondary);
+}
 
 
+/* in-chat date line */
+.content-1o0f9g{
+    color: var(--background-accent);
+}
+.divider-3_HH5L{
+    border-color: var(--background-accent);
+}
 
+
+/* search popout */
+.resultsGroup-r_nuzN{
+    background-color: var(--background-quat);
+    color: red;
+}
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3{
+    background-color: var(--background-accent);
+}
+
+
+/* new server pop-up & public server list*/
+.theme-dark .root-1gCeng{
+    background: var(--background-quat);
+}
+.header-3ZP1MY{
+    color: aliceblue;
+}
+.theme-dark .pageWrapper-1PgVDX{
+    background-color: var(--background-primary);
+}
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{
+    background-color: var(--background-accent);
+    border-radius: 3px;
+}
