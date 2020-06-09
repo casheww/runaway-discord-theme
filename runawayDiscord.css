@@ -63,7 +63,6 @@ body {
 }
 
 
-
 /* chat typing field */
 .scrollableContainer-2NUZem{
     background-color: var(--textbox-bg);
@@ -210,4 +209,12 @@ body {
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{
     background-color: var(--background-accent);
     border-radius: 3px;
+}
+
+/* upload modal */
+.theme-dark .uploadModal-2ifh8j{
+    background-color: var(--background-secondary);
+}
+.uploadModal-2ifh8j .footer-3mqk7D{
+    background-color: var(--background-primary);
 }
