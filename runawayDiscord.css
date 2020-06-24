@@ -9,7 +9,7 @@
     --background-secondary-alt: #150f15;
     --blurple: #7a405a;
     --deprecated-quickswitcher-input-background: #302930;
-    --interactive-normal: #fae5e5;
+    --interactive-normal: #faf5f5;
     --interactive-active: #fae5e5;
     --deprecated-card-bg: #1a151d;
     --deprecated-card-editable-bg: #1a151d;
@@ -47,7 +47,7 @@ body {
 .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6{
     background-color: transparent;
 }
-.userPopout-3XzG_A{
+.userPopout-3XzG_A, .theme-dark .body-3iLsc4{
     background-color: var(--popout-footer);
     border-radius: 3px;
 }
@@ -189,9 +189,11 @@ body {
 /* search popout */
 .resultsGroup-r_nuzN{
     background-color: var(--background-quat);
-    color: red;
 }
 .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3{
+    background-color: var(--background-accent);
+}
+.theme-dark .option-96V44q.selected-rZcOL-{
     background-color: var(--background-accent);
 }
 
