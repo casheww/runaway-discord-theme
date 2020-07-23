@@ -213,10 +213,17 @@ body {
     border-radius: 3px;
 }
 
+
 /* upload modal */
 .theme-dark .uploadModal-2ifh8j{
     background-color: var(--background-secondary);
 }
 .uploadModal-2ifh8j .footer-3mqk7D{
     background-color: var(--background-primary);
+}
+
+
+/* spoiler'd text */
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9{
+    background-color: #302a30;
 }
