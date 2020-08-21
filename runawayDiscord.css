@@ -16,12 +16,16 @@
     --background-accent: #835;
     --background-floating: #302030;
     
+    --scrollbar-thin-thumb: var(--background-accent);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-thumb: var(--blurple);
+    
     --textbox-bg: #302930;
-    --spotify-popout: #738;
+    --spotify-popout: #475;
     --settings-color: #7a609a;
     --new-msg: #8a4a8a;
     --popout-footer: #140f14;
-    --background-quat: #302030;
+    --background-quat: #547;
 }
 
 
@@ -60,6 +64,18 @@ body {
 }
 .headerPlaying-j0WQBV, .headerStreaming-2FjmGz{
     background-color: var(--background-quat);
+}
+.da-topSectionPlaying{
+    background: var(--background-quat);
+}
+.roleCircle-3xAZ1j{
+    border-radius: 5px 0 0 5px;
+    margin-left: -5px;
+    margin-right: 6px;
+    height: 22px;
+}
+.topSectionSpotify-1lI0-P{
+    background-color: var(--spotify-popout);
 }
 
 
@@ -128,10 +144,10 @@ body {
 
 
 /* chat scrollbar */
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-thumb{
+.theme-dark .themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-thumb{
     background-color: var(--blurple);
 }
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-track-piece{
+.theme-dark .themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-track-piece{
     background:none;
     border: 0;
 }
@@ -146,7 +162,7 @@ body {
 
 
 /* "new message" stuff */
-.newMessagesBar-mujexs{
+.da-newMessagesBar{
     background-color: var(--blurple);
     border-radius: 0 0 4px 4px;
 }
