@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
 
+/* This version just adds squircle pfp masking to the member list. They kinda suck but I wanted to keep the code. */
+
 
 :root{
     --background-primary: #201923;
@@ -51,12 +53,13 @@ body {
 .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6{
     background-color: transparent;
 }
-.userPopout-3XzG_A, .theme-dark .body-3iLsc4{
+.da-userPopout, .theme-dark .body-3iLsc4{
     background-color: var(--popout-footer);
     border-radius: 3px;
+    width: 290px;
 }
 .role-2irmRk{
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .theme-dark .quickMessage-1yeL4E{
     background-color: var(--background-primary);
@@ -69,7 +72,7 @@ body {
     background: var(--background-quat);
 }
 .roleCircle-3xAZ1j{
-    border-radius: 5px 0 0 5px;
+    border-radius: 3px 0 0 3px;
     margin-left: -5px;
     margin-right: 6px;
     height: 22px;
@@ -105,8 +108,8 @@ body {
 
 
 /* widens member list. adds animations */
-.members-1998pB{
-    width: 284px;
+.da-members{
+    width: 300px;
 }
 .clickable-1JJAn8 .layout-2DM8Md{
     width: 245px;
@@ -122,6 +125,21 @@ body {
     width: 245px;
     transition: transform ease 0.1s;
     border-radius: 3px;
+}
+.da-membersGroup{
+    margin-inline-start: 3px;
+}
+.da-member{
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+.da-avatar .da-wrapper{
+    height: 40px !important;
+    margin-right: 40px;
+}
+.da-mask foreignObject{
+    clip-path: inset(5% round 25%);
+    mask: url();
 }
 
 
