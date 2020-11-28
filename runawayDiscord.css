@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
 
-
 :root{
     --background-primary: #201923;
     --background-secondary: #1a151d;
@@ -246,4 +245,14 @@ body {
 /* spoiler'd text */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9{
     background-color: #302a30;
+}
+/* replies */
+.da-repliedMessage{
+    font-size: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.da-replyLink{
+    padding-left: 20px;
+    font-size: 85%;
 }
