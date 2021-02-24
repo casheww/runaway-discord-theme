@@ -50,10 +50,10 @@ body {
 .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6{
     background-color: transparent;
 }
-.da-userPopout, .theme-dark .body-3iLsc4{
+.da-userPopout, .theme-dark .body-3iLsc4, .userPopout-3XzG_A {
     background-color: var(--popout-footer);
     border-radius: 3px;
-    width: 290px;
+    width: 285px;
 }
 .role-2irmRk{
     border-radius: 3px;
@@ -105,8 +105,8 @@ body {
 
 
 /* widens member list. adds animations */
-.da-members{
-    width: 300px;
+.da-members, .members-1998pB {
+    width: 280px;
 }
 .clickable-1JJAn8 .layout-2DM8Md{
     width: 245px;
