@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
 
 :root{
@@ -53,7 +54,7 @@ body {
 .da-userPopout, .theme-dark .body-3iLsc4, .userPopout-3XzG_A {
     background-color: var(--popout-footer);
     border-radius: 3px;
-    width: 285px;
+    width: 23vw;
 }
 .role-2irmRk{
     border-radius: 3px;
@@ -165,7 +166,7 @@ body {
 
 
 /* "new message" stuff */
-.da-newMessagesBar{
+.da-newMessagesBar, .newMessagesBar-265mhP{
     background-color: var(--blurple);
     border-radius: 0 0 4px 4px;
 }
